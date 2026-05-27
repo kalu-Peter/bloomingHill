@@ -99,9 +99,8 @@ const Home = () => {
             </Button>
             <Button
               size="lg"
-              variant="outline"
               asChild
-              className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
+              className="bg-white hover:bg-gray-100 text-black border-0"
             >
               <Link to="/events">Upcoming Events</Link>
             </Button>

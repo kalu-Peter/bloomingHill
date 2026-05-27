@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,7 +26,7 @@ const Navigation = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
-              <img src="/src/assets/logo.png" alt="Logo" className="h-8 w-8" />
+              <img src={logo} alt="Logo" className="h-10 w-10 object-contain" />
               <span className="text-xl font-bold text-primary-foreground">
                 Blooming Hill Methodist Church 
               </span>

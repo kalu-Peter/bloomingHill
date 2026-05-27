@@ -1,4 +1,5 @@
-import { Heart, MapPin, Phone, Mail, Clock } from "lucide-react";
+import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
           {/* Church Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <img src="/src/assets/logo.png" alt="Logo" className="h-8 w-8" />
+              <img src={logo} alt="Logo" className="h-10 w-10 object-contain" />
               <span className="text-xl font-bold">Blooming Hill Methodist Church</span>
             </div>
             <p className="text-primary-foreground/80">
