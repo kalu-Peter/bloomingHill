@@ -88,23 +88,6 @@ const Home = () => {
           <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90">
             A loving community where faith grows and hearts are transformed
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button
-              size="lg"
-              variant="default"
-              asChild
-              className="bg-accent hover:bg-accent/90 text-accent-foreground"
-            >
-              <Link to="/about">Learn More About Us</Link>
-            </Button>
-            <Button
-              size="lg"
-              asChild
-              className="bg-white hover:bg-gray-100 text-black border-0"
-            >
-              <Link to="/events">Upcoming Events</Link>
-            </Button>
-          </div>
         </div>
       </section>
 
