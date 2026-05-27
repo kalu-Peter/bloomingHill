@@ -32,7 +32,7 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section with Background Carousel */}
-      <section className="relative h-[90vh] overflow-hidden flex items-center justify-center text-primary-foreground">
+      <section className="relative h-[45vh] md:h-[90vh] overflow-hidden flex items-center justify-center text-primary-foreground">
         {/* Background Carousel */}
         <div className="absolute inset-0">
           {mediaItems.map((item, index) => (
