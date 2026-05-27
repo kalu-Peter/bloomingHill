@@ -2,42 +2,16 @@ import { useState } from "react";
 import { X } from "lucide-react";
 
 const photos = [
-  {
-    src: "https://images.unsplash.com/photo-1438032005730-c779502df39b?w=800&h=600&fit=crop",
-    caption: "Sunday Service",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&h=600&fit=crop",
-    caption: "Youth Fellowship",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=800&h=600&fit=crop",
-    caption: "Praise and Worship",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1526671756670-4d3b1b02c44e?w=800&h=600&fit=crop",
-    caption: "Community Outreach",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1543269865-cbf427effbad?w=800&h=600&fit=crop",
-    caption: "Church Fellowship",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1472653431158-6364773b2a56?w=800&h=600&fit=crop",
-    caption: "Prayer Meeting",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
-    caption: "Church Leaders",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1504052434569-70ad5836ab65?w=800&h=600&fit=crop",
-    caption: "Special Events",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1445445290350-18a3b86e0b5a?w=800&h=600&fit=crop",
-    caption: "Home Ministry Visit",
-  },
+  { src: "/pastor.jpeg",            caption: "Senior Pastor" },
+  { src: "/pW.jpeg",                caption: "Praise and Worship" },
+  { src: "/pw2.jpeg",               caption: "Praise and Worship" },
+  { src: "/g2.jpeg",                caption: "Mbuluni Methodist Fellowship" },
+  { src: "/fellow%20games.jpeg",    caption: "Church Fellowship" },
+  { src: "/youth%20f2.jpeg",        caption: "Youth Ministry" },
+  { src: "/youth%20f3.jpeg",        caption: "Youth Ministry" },
+  { src: "/youth%20f4.jpeg",        caption: "Youth Ministry" },
+  { src: "/youth%20f5.jpeg",        caption: "Youth Ministry" },
+  { src: "/youth%20fll.jpeg",       caption: "Youth Ministry" },
 ];
 
 const Gallery = () => {
